@@ -1,4 +1,3 @@
-import React from 'react';
 import NavBarHome from '../components/NavBarHome';
 import FooterHome from '../components/FooterHome';
 import FAQs from '../components/FAQs';
@@ -10,11 +9,8 @@ const HomePage = () => {
   return (
     <>
 <NavBarHome/>
-
 <Hero/>
-
 <FAQs/>
-
 <FooterHome/>
 
     </>
